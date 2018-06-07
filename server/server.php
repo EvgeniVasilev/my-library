@@ -3,9 +3,9 @@ header('Access-Control-Allow-Headers: Access-Control-Allow-Origin');
 header('Access-Control-Allow-Headers: Content-Type');
 header('Access-Control-Allow-Origin: http://localhost:3000');
 
-$host = '127.0.0.1';
+$host = '';
 $db = 'books';
-$user = 'root';
+$user = '';
 $pass = '';
 $charset = 'utf8mb4';
 
