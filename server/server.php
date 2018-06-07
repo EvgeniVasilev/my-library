@@ -32,6 +32,7 @@ switch ($method) {
         break;
     default:
         echo "Api is good!";
+        break;
 }
 
 function getAllRecords()
