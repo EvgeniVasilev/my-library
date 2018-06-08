@@ -51,3 +51,5 @@ function deleteRecord()
     $stmt = $pdo->prepare('DELETE  FROM library WHERE id = ' . $id);
     $stmt->execute();
 }
+
+$pdo = null;
